@@ -5,9 +5,12 @@ tags: Palo Alto HA Lab
 categories: highavailability
 ---
 
-> Ahmet Numan Aytemiz , 03.10.2021
+> Ahmet Numan Aytemiz , 10.03.2021
 
 - **Configure Active Passive HA According to Topology**
+
+- **Make sure PaloAlto1 is active firewall and paloalto2 is passive firewall**
+
 - I already preconfigured on PaloAlto1
   - Managment IP address
   - Zones
@@ -20,10 +23,12 @@ categories: highavailability
   - Licensed
   - There are no any other configuration on the PaloAlto2
 
-![topology](/img/pa_ha_lab.PNG)
+![topology](/img/pa_ha_lab1.PNG)
 
 
 ---
+
+## PaloAlto1 Configuration
 
 - **On the Palo Alto1 Configure Ethernet 1/3 and Ethernet 1/4 as a HA Link**
   - **Network > Interfaces > Ethernet > Ethernet 1/3**
@@ -57,6 +62,9 @@ categories: highavailability
 **and finally commit**
 
 ---
+
+## PaloAlto2 Configuration
+
 
 - **On the Palo Alto2 Configure Ethernet 1/3 and Ethernet 1/4 as a HA Link**
   - **Network > Interfaces > Ethernet > Ethernet 1/3**

@@ -5,7 +5,7 @@ tags: Palo Alto HA Overview
 categories: highavailability
 ---
 
-> Ahmet Numan Aytemiz , 03.10.2021
+> Ahmet Numan Aytemiz , 10.03.2021
 
 ---
 
