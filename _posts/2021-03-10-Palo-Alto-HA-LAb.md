@@ -126,7 +126,7 @@ categories: highavailability
 
 - On the PaloAlto2 Verify local device is active and peer suspended
 
-![topology](/img/suspend2.PNG)
+![topology](/img/suspended2.PNG)
 
 - Dont forget the make functional PaloAlto1
 
