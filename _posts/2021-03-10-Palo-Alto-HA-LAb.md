@@ -117,7 +117,7 @@ categories: highavailability
 ![topology](/img/security2.PNG)
 
 
-## Manuel Failover Active Router
+## Manuel Failover Active Firewall
 
 - On the PaloAlto1 suspend this device to trigger ha failover
   - Device > High Availability > Operational Commands > Suspend local device
