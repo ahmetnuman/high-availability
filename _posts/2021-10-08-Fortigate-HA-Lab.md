@@ -26,13 +26,13 @@ categories: highavailability
 - Configure Po2 as a trunk port and allow vlan 10,20
 - Configure Po3 mode passive with vpc number 3
 - Configure Po3 as a trunk port and allow vlan 10,20
-- Configure PO4 mode passive with vpc number 4
+- Configure P04 mode active with vpc number 4
 - Configure Po4 as a trunk port and allow vlan 10,20
 
 **On the ACCESS-SWITCH**
 
 - Create vlan 10 and vlan 20
-- Create Po1 mode active 
+- Create Po1 mode passive 
 - Create Po1 as a trunk port and allow vlan 10,20
 - Configure e 1/0 as a access port for vlan 10
 - Configure e 1/1 as a access port for vlan 20
