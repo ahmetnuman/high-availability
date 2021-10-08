@@ -9,6 +9,8 @@ categories: highavailability
 
 ---
 
+![Image](/img/forti_ha_topology.PNG)
+
 **According to topology i am going to configure:**
 
 - **On the Cisco Nexus Switches**
@@ -345,3 +347,7 @@ FortiGate-VM64-KVM (ha) # set priority 100
 ```
 
 ![Image](/img/ha_status1.PNG)
+
+**At the end of the lab i am succesfully pinging from both pc to the internet**
+
+![Image](/img/end_lab.PNG)
